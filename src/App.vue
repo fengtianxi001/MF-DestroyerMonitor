@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <BaseLoading :loading="loading" />
     <div class="container" ref="container"></div>
   </Layout>
 </template>
@@ -8,7 +9,7 @@ import { Layout } from '@/layout'
 import * as THREE from 'three'
 import { onMounted, ref } from 'vue'
 import { useThree } from '@/hooks'
-import { BaseMarker } from '@/components'
+import { BaseMarker, BaseLoading } from '@/components'
 
 const loading = ref(true)
 

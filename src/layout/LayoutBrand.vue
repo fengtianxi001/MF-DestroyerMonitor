@@ -19,6 +19,7 @@
   }
   .layout-brand-title {
     font-family: Dincoros;
+    font-family: DincorosBlack;
     font-size: 24px;
     color: var(--color-neutral-8);
   }

@@ -17,7 +17,7 @@ import {
 } from 'three/examples/jsm/renderers/CSS2DRenderer'
 import { GLTFLoader, type GLTF } from 'three/examples/jsm/loaders/GLTFLoader'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader'
 import { Water } from 'three/addons/objects/Water.js'
 import * as THREE from 'three'
